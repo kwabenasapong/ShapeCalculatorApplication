@@ -1,8 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ShapeCalculatorApplication;
 
-ShapeCalculator circle = new ShapeCalculator();
-circle.name = "Circle";
-Console.WriteLine(circle.name);
+Rectangle rectangle1 = new Rectangle(10, 20);
+rectangle1.Name = "Rectangle 1";
+rectangle1.PrintDetails();
+
 
 Console.ReadLine();
