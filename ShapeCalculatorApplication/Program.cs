@@ -14,5 +14,3 @@ triangle1.Name = "Triangle 1";
 triangle1.PrintDetails();*/
 
 Menu.Main();
-
-Console.ReadLine();
